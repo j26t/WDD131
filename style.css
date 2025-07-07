@@ -1,0 +1,52 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: blue 0px 5px 10px;
+}
+
+h1 {
+    text-align: center;
+    color: dimgray;
+    padding: 20px;
+}
+
+body {
+    border: 1px dotted blue;
+}
+
+P {
+    text-align: left;
+    color: #000;
+    font-size: medium;
+    margin: 20px;
+}
+
+figcaption {
+    display: grid;
+    grid-template-columns: max-content auto;
+    justify-content: center;
+    align-items: center;
+    color: darkblue;
+    border: #000 solid 1px;
+}
+
+footer {
+    background-color: blue;
+    margin: 20px;
+    height: auto;
+    padding: 10px;
+}
+
+.socia img {
+    width: 50%;
+    height: auto;
+}
