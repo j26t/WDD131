@@ -1,7 +1,7 @@
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: aliceblue;
+    background-color: #67589346;
     padding: 10px;
 }
 
@@ -13,14 +13,20 @@ img {
     box-shadow: blue 0px 5px 10px;
 }
 
+table {
+    border: 1px solid black;
+}
+
 h1 {
     text-align: center;
     color: dimgray;
     padding: 20px;
+    background-color: #000;
+    color: aliceblue;
 }
 
 body {
-    border: 1px dotted blue;
+    border: 1px solid black;
 }
 
 P {
@@ -32,7 +38,6 @@ P {
 
 figcaption {
     display: grid;
-    grid-template-columns: max-content auto;
     justify-content: center;
     align-items: center;
     color: darkblue;
@@ -40,13 +45,53 @@ figcaption {
 }
 
 footer {
-    background-color: blue;
-    margin: 20px;
+    background-color: #67589346;
+    text-align: center;
+    margin: 10px;
     height: auto;
     padding: 10px;
 }
 
 .socia img {
-    width: 50%;
+    width: 20%;
     height: auto;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, o, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #7798;
+    color: #000;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #564478;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #564478;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #564478;
 }
